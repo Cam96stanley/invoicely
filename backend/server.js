@@ -23,7 +23,3 @@ const startServer = async () => {
 };
 
 startServer();
-
-app.get('/', (req, res) => {
-  res.send('Invoice API is running');
-});
